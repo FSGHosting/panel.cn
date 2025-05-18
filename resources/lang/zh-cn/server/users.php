@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'permissions' => [
+        'websocket_*' => '允许访问该伺服器的 WebSocket。',
+        'control_console' => '允许用户发送数据到伺服器控制台。',
+        'control_start' => '允许用户启动伺服器实例。',
+        'control_stop' => '允许用户停止伺服器实例。',
+        'control_restart' => '允许用户重新启动伺服器实例。',
+        'control_kill' => '允许用户终止伺服器实例。',
+        'user_create' => '允许用户创建该伺服器的新用户帐户。',
+        'user_read' => '允许用户查看与该伺服器关联的用户。',
+        'user_update' => '允许用户修改与该伺服器关联的其他用户。',
+        'user_delete' => '允许用户删除与该伺服器关联的其他用户。',
+        'file_create' => '允许用户创建新文件和目录的权限。',
+        'file_read' => '允许用户查看与该伺服器实例关联的文件和文件夹，以及查看其内容。',
+        'file_update' => '允许用户更新与伺服器关联的文件和文件夹。',
+        'file_delete' => '允许用户删除文件和目录的权限。',
+        'file_archive' => '允许用户创建文件存档和解压现有存档的权限。',
+        'file_sftp' => '允许用户使用 SFTP 客户端执行上述文件操作。',
+        'allocation_read' => '允许访问伺服器分配管理页面。',
+        'allocation_update' => '允许用户修改伺服器分配的权限。',
+        'database_create' => '允许用户为伺服器创建新数据库的权限。',
+        'database_read' => '允许用户查看伺服器数据库的权限。',
+        'database_update' => '允许用户修改数据库的权限。如果用户没有“查看密码”权限，则他们将无法修改密码。',
+        'database_delete' => '允许用户删除数据库实例的权限。',
+        'database_view_password' => '允许用户查看系统中数据库密码的权限。',
+        'schedule_create' => '允许用户为伺服器创建新计划的权限。',
+        'schedule_read' => '允许用户查看伺服器计划的权限。',
+        'schedule_update' => '允许用户修改现有伺服器计划的权限。',
+        'schedule_delete' => '允许用户删除伺服器计划的权限。',
+    ],
+];
